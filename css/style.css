@@ -5,6 +5,16 @@
   box-sizing: border-box;
 }
 
+.logo
+{
+  display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    gap: 16px;
+}
+
+
+
 body 
 {
   font-family: Arial, sans-serif;
@@ -41,7 +51,8 @@ header
 .footer-wrap
 {
   display: flex;
-  justify-content: center;
+  width: 50%;
+  justify-content: space-between;
 }
 
 
@@ -56,6 +67,7 @@ nav a
 {
   color: #a39999;
   text-decoration: none;
+  font-weight: bold;
 }
 
 nav a:hover 
@@ -80,7 +92,6 @@ footer
  {
   background: #333;
   color: #fff;
-  text-align: center;
   padding: 20px 0;
 }
 
@@ -90,3 +101,27 @@ img
     height: 80px;
     border-radius: 50%;
 }
+
+
+.footer-wrap img
+{
+  height: 50px;
+  width:  50px;
+  border-radius: 50%;
+}
+
+.social img
+{
+ 
+ height: 37px;
+ width: 37px;
+}
+
+.social a:hover img
+{
+  transform: scale(1.05);
+  transition: all 0.3s;
+
+}
+
+
