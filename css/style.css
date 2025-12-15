@@ -124,4 +124,9 @@ img
 
 }
 
-
+.footer-logo
+{
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+}
