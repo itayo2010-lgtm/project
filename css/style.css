@@ -31,10 +31,14 @@ body
 
 
 
-/* Header */
+
+
+
+
+
 header 
 {
-  background: rgb(167, 29, 29);
+  background: rgb(35, 18, 95);
   color: white;
   padding: 20px 0;
 }
@@ -47,12 +51,11 @@ header
   align-items: center;
 }
 
-
-.footer-wrap
+.header-wrap img 
 {
-  display: flex;
-  width: 50%;
-  justify-content: space-between;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
 }
 
 
@@ -73,58 +76,21 @@ nav a
 
 nav a:hover 
 {
-  color: rgb(32, 30, 24);
+  color: rgb(176, 216, 82);
   font-weight: bold;
+  font-size: large;
 }
+
+
+
+
 
 main
 {
-  background-color: aquamarine;
-      padding: 38px;
-}
-
-
-footer
- {
-  background: #333;
-  color: #fff;
-  padding: 20px 0;
-}
-
-.header-wrap img 
-{
-    width: 80px;
-    height: 80px;
-    border-radius: 50%;
-}
-
-
-.footer-wrap img
-{
-  height: 50px;
-  width:  50px;
-  border-radius: 50%;
-}
-
-.social img
-{
- 
- height: 37px;
- width: 37px;
-}
-
-.social a:hover img
-{
-  transform: scale(1.05);
-  transition: all 0.3s;
-
-}
-
-.footer-logo
-{
   display: flex;
-  flex-direction: row-reverse;
-  align-items: center;
+  justify-content: start;
+  background-color: rgb(133, 195, 174);
+  padding: 38px;
 }
 
 
@@ -133,23 +99,24 @@ footer
   display: flex;
   border: 1px solid black;
   height: 180px;
-  width: 900px;
+  width: 1100px;
   margin-bottom: 20px;
+  border-radius: 5px;
 }
 
-.green
+.card1
 {
-  background-color: green;
+  background-color: rgb(134, 134, 189);
 }
 
-.blue
+.card2
 {
-  background-color: blue;
+  background-color: rgb(71, 71, 171);
 }
 
-.yellow
+.card3
 {
-  background-color: yellow;
+  background-color: rgb(38, 28, 174);
 }
 
 .card-img img
@@ -167,4 +134,117 @@ footer
 .card-description
 {
   padding: 12px;
+}
+
+
+.top
+{
+  font-weight: bold;
+}
+
+.card-description a
+{
+  color: rgb(174, 81, 156);
+  text-decoration: none;
+  font-size: large;
+  font-weight: bold;
+}
+
+
+button img
+{
+  height: 30px;
+  width: 37px;
+}
+
+
+
+.card-description a:hover
+{
+  color: rgb(37, 13, 13);
+  font-size: larger;
+  cursor: pointer;
+}
+
+
+.card1 button
+{
+  border: none;
+  background-color: rgb(134, 134, 189);
+}
+
+.card2 button
+{
+  border: none;
+  background-color: rgb(71, 71, 171);
+}
+
+.card3 button
+{
+  border: none;
+  background-color: rgb(38, 28, 174);
+}
+
+.buttons
+{
+    display: flex;
+  align-items: center;
+  gap: 3px;
+}
+
+.buttons :hover img
+{
+  transform: scale(1.1);
+  transition: all 0.17s;
+  cursor: pointer;
+}
+
+
+ 
+
+
+
+footer
+ {
+  background: #040005;
+  color: #fff;
+  padding: 20px 0;
+}
+
+.footer-wrap
+{
+  display: flex;
+  width: 50%;
+  justify-content: space-between;
+}
+
+.footer-logo
+{
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+}
+
+
+
+.footer-wrap img
+{
+  height: 50px;
+  width:  50px;
+  border-radius: 50%;
+}
+
+
+.social img
+{
+ 
+ height: 37px;
+ width: 37px;
+}
+
+.social a:hover img
+{
+  transform: scale(1.09);
+  transition: all 0.3s;
+
 }
